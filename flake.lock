@@ -1,0 +1,82 @@
+{
+  "nodes": {
+    "dronecan_DSDL-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1714432029,
+        "narHash": "sha256-HVluUL/4XxTz3erryrsKE7C/NFsMeN/ae5sAtRhDIME=",
+        "owner": "DroneCAN",
+        "repo": "DSDL",
+        "rev": "993be80a62ec957c01fb41115b83663959a49f46",
+        "type": "github"
+      },
+      "original": {
+        "owner": "DroneCAN",
+        "repo": "DSDL",
+        "type": "github"
+      }
+    },
+    "levers": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1687557470,
+        "narHash": "sha256-T0TAGZPiI5cwWR2OMLVYW7aj3Aco7v8qIVF7JoEgO9Y=",
+        "owner": "kquick",
+        "repo": "nix-levers",
+        "rev": "0e31d80978a9fb6a96df0722aa298d008a57c53e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kquick",
+        "repo": "nix-levers",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1701282334,
+        "narHash": "sha256-MxCVrXY6v4QmfTwIysjjaX0XUhqBbxTWWB4HXtDYsdk=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "057f9aecfb71c4437d2b27d3323df7f93c010b7e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "23.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "pydronecan-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1716184382,
+        "narHash": "sha256-kWJVCbfvgB5Ga/c/YXE+bLW0BXVWtaLe0LDy8ChhSpU=",
+        "owner": "DroneCAN",
+        "repo": "pydronecan",
+        "rev": "8dd60c5abebde41260eccebb625f2d22449af11f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "DroneCAN",
+        "repo": "pydronecan",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "dronecan_DSDL-src": "dronecan_DSDL-src",
+        "levers": "levers",
+        "nixpkgs": "nixpkgs",
+        "pydronecan-src": "pydronecan-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
